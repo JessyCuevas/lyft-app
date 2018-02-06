@@ -2,7 +2,9 @@ body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
-    text-align: center;}
+    text-align: center;
+}
+
 
 .container{
     width: 100%;
@@ -26,18 +28,12 @@ body {
 
 
 .logo{
+    width: 18em;
+    margin: 0 auto;
     padding-top: 10%;
     display: block;
     height: auto;}
 
- .logo-w{
-    width: 23%;
-    margin: 0 auto;}
-    
-
-.logo-p{
-    width: 25%;
-    margin: 0 auto;}
 
 
 .content2 button {
@@ -65,41 +61,47 @@ body {
     overflow: hidden;
 }
 
-#info {
-    display: none;
+.material-icons{
+    color: #E90C8C;
 }
 
-#resend {
-    background: rgb(194, 192, 192);
-    border-radius: 5px;
-    display: block;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1em;
-    margin: 0 auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    padding: 5px 10px;
+
+.iconDone{
+  color: white;
+  position: relative;
+  margin: 0;
+  margin-top: 10px;
 }
 
-#input-code {
-    margin-bottom: 20px;
+
+.btn-next {
+  width: 40%;
+  background-color: #E90C8C;
 }
 
-#user-info {
-    display: none;
+.btn-next:hover {
+  background: linear-gradient(to right, #560061, #E50A8A);
+  color: white;
 }
 
-#user-nama,
-#user-email {
-    display: block;
-    margin: 0 auto;
+#resendCode {
+  background-color: #BEBEBE;
+  color: black;
 }
 
-#checbox {
-    display: inline-block !important;
+#resendCode:hover {
+  background: linear-gradient(to right, #560061, #E50A8A);
+  color: white;
 }
 
-#final-screen {
-    display: none;
-    color: #ffffff;
+.bg-success {
+  background: linear-gradient(to bottom right, #560061, #E50A8A);
+  height: 100vh;
 }
+
+.content-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
